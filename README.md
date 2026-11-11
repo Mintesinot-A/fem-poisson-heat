@@ -90,4 +90,4 @@ P1 keeps its optimal rates (it needs only H²-type regularity), but P2 drops fro
 
 - Structured triangular meshes on the unit square only; extend to unstructured meshes (e.g. from `meshio`/Gmsh).
 - Scalar problems only; natural next steps are linear elasticity (vector-valued, tensor-valued stresses) and the Stokes problem with Taylor–Hood elements.
-- Compare the heat-equation results with my ADI finite-difference solver: https://github.com/Mintesinot-A/Python-ADI-HeatTransfer
+- Compare the heat-equation results with my ADI finite-difference solver: https://github.com/Mintesinot-A/Python-ADI-Heat-Transfer
