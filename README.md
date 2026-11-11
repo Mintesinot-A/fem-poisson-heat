@@ -4,8 +4,8 @@ A small, readable finite element code (NumPy/SciPy only) with P1 and P2 triangul
 written to **verify the method against manufactured smooth solutions** and to see
 numerically how the convergence rates depend on the *regularity* of the solution.
 
-Author: Mintesinot Alemayehu Akale · Bahir Dar Institute of Technology, Bahir Dar University
-Developed with assistance from Claude (Anthropic); every result below is reproducible with the scripts in this repository.
+Author: Mintesinot Alemayehu Akale · Bahir Dar Institute of Technology, Bahir Dar University.
+GitHub formatting  assistanced with Claude (Anthropic). I develop the Python code, run the code, tested and verified all results and take responsibility for the content.
 
 ## 1. From the strong form to the weak form
 
