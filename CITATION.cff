@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software in teaching or research, please cite it as below."
+title: "les-kinetic-reduction-lab: how much chemistry does a reacting-flow LES need?"
+type: software
+version: 0.1.0
+date-released: 2026-11-13
+license: MIT
+authors:
+  - given-names: "Mintesinot"
+    family-names: "Alemayehu Akale"
+    affiliation: "Bahir Dar Institute of Technology, Bahir Dar University"
+repository-code: "https://github.com/YOUR-USERNAME/les-kinetic-reduction-lab"
+abstract: >-
+  A self-contained teaching project that takes a chain-branching kinetic
+  mechanism from detailed to skeletal (DRGEP) to global one-step, and measures
+  the accuracy and cost of each level in a 2D large-eddy simulation of an
+  auto-igniting jet. Pure Python (NumPy/SciPy/Matplotlib).
+keywords:
+  - combustion
+  - chemical kinetics
+  - mechanism reduction
+  - DRGEP
+  - large-eddy simulation
+  - reacting flows
