@@ -78,8 +78,7 @@ This u lies in H^s only for s < 1.75, and f is singular at x = 0.
 | P1 | 128 | 2.677e-05 | 1.97 | 1.395e-02 | 0.98 |
 | P2 | 128 | 1.277e-06 | 1.76 | 1.224e-03 | 0.76 |
 
-P1 keeps its optimal rates (it needs only H²-type regularity), but P2 drops from (3, 2) to about (1.75, 0.75), which is the limit set by the regularity of u.
-**Higher-order elements pay off only when the solution is smooth.** Plot: `convergence_nonsmooth.png`.
+At these mesh sizes P1 still shows nearly optimal rates (about 2 in L2 and 1 in H1). This is pre-asymptotic. Since u is only in H^1.75, not H², P1 is also limited by the regularity of u, and its rates should eventually fall to about 1.75 and 0.75. The singular part of the error is small for P1, so the drop is slow. In the range tested the rates drift down only slightly (H1: 0.98, 0.97, 0.96 up to N = 512). P2 is already regularity-limited, and its rates fall from (3, 2) to about (1.75, 0.75), as theory predicts. P2 remains more accurate than P1 at equal degrees of freedom, but by a factor of about 5–6 instead of more than 50. Higher-order elements pay off most when the solution is smooth. Plot: `convergence_nonsmooth.png`.
 
 ![Non-smooth contrast](convergence_nonsmooth.png)
 
